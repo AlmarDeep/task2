@@ -1,0 +1,49 @@
+.bestcard{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: aliceblue;
+    border-bottom: lightgray solid 2px;
+    border-radius: 2%;
+    padding-left: 50px;
+    box-shadow: 5px 5px lightgray;
+    margin-left: 50px;
+}
+.besttext{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    gap: 50px;
+}
+.besttext p{
+    color: lightgray;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: x-large;
+
+}
+.besttext h2{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+   
+}
+
+@media screen  and (max-width:789px){
+    .bestcard{
+        width: 150px;
+    
+    }
+    .besttext{
+        gap: 0px;
+        
+        width: 100vw;
+    }
+    .besttext h2{
+        font-size: small;
+    }
+    .besttext p{
+        font-size: small;
+    }
+}

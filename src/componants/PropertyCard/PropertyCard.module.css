@@ -1,0 +1,70 @@
+
+.PropertyCard{
+    height: 600px;
+    width: 500px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.imgdiv img{
+    height: 225px;
+    width: 290px;
+    padding-left: 10px;
+    padding-top: 20px;
+   
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+}
+.villatype{
+    background-color: #fbd9cf;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+.villaprice{
+    color: #f35525;
+}
+.features{
+    border-bottom: lightgray solid 2px;
+}
+.featuretitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.featuredescription{
+    width: 280px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 3px;
+}
+.featuredescription p{
+    color: lightgray;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.featuredescription span{
+    color: black;
+}
+ button{
+    margin-top: 20px;
+    width: 200px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 35px;
+}

@@ -1,0 +1,105 @@
+
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.fnav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2px;
+    border-bottom: rgb(187, 186, 186) solid 2px;
+}
+.emaillink{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    gap: 5px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-right: gray solid 2px;
+    margin-bottom: 5px;
+}
+.emaillink p{
+    font-size: x-large;
+    font-weight: bold;
+    color: lightgray;
+}
+.socailmedia img{
+    width: 5rem;
+height: 5rem;
+}
+
+.snav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.snav h2{
+    font-weight: bolder;
+    font-size: 80px;
+    font-family:  sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+    
+.mlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+   
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+
+}
+.links a:hover{
+    color: orange;
+}
+
+.mybutton button{
+    width: 200px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 35px;
+}
+.parent{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    left: 30px;
+    z-index: 1;
+    background-color: #f35525;
+}
+.mymenu{
+    display: none;
+}
+
+@media screen and ( max-width : 789px){
+    .fnav{
+        display: none;
+    }
+    .mlinks{
+        display: none;
+    }
+   .mymenu{
+    display: block;
+   }
+    
+}

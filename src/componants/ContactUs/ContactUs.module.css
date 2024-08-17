@@ -1,0 +1,85 @@
+.ContactUs{
+    margin-top: 100px;
+}
+.rr{
+    position: relative;
+    height: 1500px;
+}
+.imgparent{
+    width: 90vw;
+}
+.imgchild{
+    position: absolute;
+    top: 35%;
+    right: 45%;
+    border-radius: 10px;
+}
+
+.contactcard{
+    background-color:white;
+    height: 850px;
+    width: 400px;
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+
+.contactuscard{
+  position: absolute;
+  top: 80%;
+  right: 45%;
+  display: flex;
+  gap: 110px;
+}
+
+input {
+    border-radius: 10px;
+    height: 40px;
+    width: 350px;
+    font-size: x-large;
+    background-color: #fafafa;
+    border: 0px;
+}
+textarea{
+    border-radius: 10px;
+    height: 100px;
+     width: 350px; 
+     font-size: x-large;
+    background-color: #fafafa;
+    border: 0px;
+    padding-bottom: 100px;
+}
+
+@media screen  and (max-width:789px){
+    .rr{
+        align-items: center;
+        justify-content: center;
+        height: 2000px;
+    }
+   .imgchild{
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 80vw;
+    padding-left: 50px;
+   }
+   .contactuscard{
+    top: auto;
+    right: auto;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+   }
+   .contactcard{
+    position: relative;
+    top: auto;
+    left: auto;
+    padding-left: 50px;
+   }
+}
